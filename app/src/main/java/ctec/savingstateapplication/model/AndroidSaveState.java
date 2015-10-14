@@ -1,10 +1,13 @@
 package ctec.savingstateapplication.model;
 
+import ctec.savingstateapplication.model.AndroidSaveState;
 import android.app.Application;
+import android.widget.Button;
+import android.widget.CheckBox;
 /**
  * Created by Brock Hostetter on 10/14/15.
  */
-public class AndroidSavetate
+public class AndroidSaveState
 {
     private String userName;
     private boolean isTired;

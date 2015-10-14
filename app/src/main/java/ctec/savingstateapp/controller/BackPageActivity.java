@@ -1,23 +1,22 @@
 package ctec.savingstateapp.controller;
 
-import android.support.v7.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class SavingStateActivity extends Activity
-{
+public class BackPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_saving_state);
+        setContentView(R.layout.activity_back_page);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_saving_state, menu);
+        getMenuInflater().inflate(R.menu.menu_back_page, menu);
         return true;
     }
 
